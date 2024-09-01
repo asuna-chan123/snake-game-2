@@ -1,38 +1,38 @@
 .controls {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
 }
 
 .horizontal-controls {
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
+display: flex;
+justify-content: space-between;
+width: 250px;
 }
 
 button {
-    width: 80px;
-    height: 80px;
-    margin: 5px;
-    font-size: 24px;
-    background-color: #4CAF50; /* Màu nền của nút */
-    color: white; /* Màu chữ */
-    border: none; /* Bỏ viền */
-    border-radius: 50%; /* Tạo hình tròn cho nút */
-    cursor: pointer;
-    outline: none;
+width: 80px;
+height: 80px;
+margin: 5px;
+font-size: 24px;
+background-color: #4CAF50; 
+color: white; 
+border: none; 
+border-radius: 50%;   
+cursor: pointer;
+outline: none;
 }
 
 button:active {
-    background-color: #45a049; /* Màu nền khi nhấn vào nút */
+background-color: #45a049; 
 }
 
 #up, #down {
-    margin-left: 8px;
+margin-left: 8px;
 }
 
 #left, #right {
-    margin-top: 0;
-    margin-bottom: 0;
+margin-top: 0;
+margin-bottom: 0;
 }
